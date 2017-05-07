@@ -100,6 +100,36 @@ body {
     }
   }
 
+  ul {
+    padding-left: 20px;
+  }
+
+  .btn-primary {
+    background-image: none;
+    background: #428bca;
+    border: none;
+    border-radius: 0;
+  }
+
+  .highlight {
+    color: #428bca;
+    font-weight: bold;
+  }
+
+  .fa-arrow-right, .fa-arrow-down {
+    color: #428bca;
+    padding: 5px;
+  }
+
+  .fa-arrow-down {
+    font-size: 1.7em;
+  }
+
+  .mobile {
+    display: none;
+    text-align: center;
+  }
+
   
 }
 
@@ -148,6 +178,7 @@ body {
 }
 
 @media only screen and (min-width: 450px) and (max-width: 1000px ) {
+
      .hiwimg {
       margin-top: 1em;
     }
@@ -181,6 +212,13 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+     .mobile {
+       display: block !important;
+     }
+     .desk {
+       display: none;
+     }
+     
      .hiwimg {
       margin-top: 1em;
       max-width: 117%;

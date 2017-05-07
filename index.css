@@ -72,6 +72,24 @@ body {
     box-shadow: 0px 3px 0.7em #666; }
   .imgrow .hiwtext p {
     padding: 0.1em 0; }
+  .imgrow ul {
+    padding-left: 20px; }
+  .imgrow .btn-primary {
+    background-image: none;
+    background: #428bca;
+    border: none;
+    border-radius: 0; }
+  .imgrow .highlight {
+    color: #428bca;
+    font-weight: bold; }
+  .imgrow .fa-arrow-right, .imgrow .fa-arrow-down {
+    color: #428bca;
+    padding: 5px; }
+  .imgrow .fa-arrow-down {
+    font-size: 1.7em; }
+  .imgrow .mobile {
+    display: none;
+    text-align: center; }
 
 @media only screen and (min-width: 1200px) {
   .point-card {
@@ -130,6 +148,12 @@ body {
     .card-3::before {
       left: 1.6em; } }
 @media only screen and (max-width: 450px) {
+  .mobile {
+    display: block !important; }
+
+  .desk {
+    display: none; }
+
   .hiwimg {
     margin-top: 1em;
     max-width: 117%; }
