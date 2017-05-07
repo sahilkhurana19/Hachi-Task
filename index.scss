@@ -1,13 +1,15 @@
+body {
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+}
+
 
 .container {
   padding-left: 0px;
   padding-right: 0px; 
 }
 
-body {
-    overflow-x: hidden !important;
-    overflow-y: scroll;
-}
+
 
 #howitworkshead {
     padding-bottom: 2em;
@@ -181,6 +183,7 @@ body {
 @media only screen and (max-width: 450px) {
      .hiwimg {
       margin-top: 1em;
+      max-width: 117%;
     }
   .imgrow {
     display: block;
@@ -245,7 +248,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 330px) {
      .hiwimg {
       margin-top: 1em;
     }
@@ -296,7 +299,7 @@ body {
 
 
 
-
+/*
 
 
 
@@ -519,7 +522,7 @@ section.media {
       margin-bottom: 1em;
       color: #333; }
 
-/* Customers */
+/* Customers 
 #levchin-container {
   margin-top: 50px;
   margin-bottom: 0px; }
@@ -929,3 +932,4 @@ section.media {
     background-position: center center !important; }
     #main .backdrop .contentOverBackdrop {
       margin-top: 15em; } }
+*/
