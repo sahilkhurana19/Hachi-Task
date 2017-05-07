@@ -4,6 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!-- Latest compiled and minified CSS -->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -15,319 +17,25 @@
 <link rel="stylesheet" type="text/css" href="index.css">
     </head>
 <body>
-                	<header id="header" class="header-landing">
-    <nav class="navbar navbar-static-top" role="navigation">
-    	<div class="container">
-    		<a href="https://teams.gohachi.com/" class="hachi-link navbar-brand">    <style>
-    .new-hachi-logo{
-        display: inline-block;
-        width: 120px;
-        height: 32px;
-        background-size: cover;
-    }
-    .new-hachi-logo.small {
-        width: 90px;
-        height: 25px;
-    }
-    .new-hachi-logo.color {
-        background-position: bottom;
-    }
-    .new-hachi-logo.white {
-        background-position: top;
-    }
-    </style>            
-    <span class="new-hachi-logo color big" style="background-image: url(&quot;//dujl9qf395ztu.cloudfront.net/img_new/logo/hachi_logos_dual.png&quot;);"></span>
-</a>
-    		<div class="navbar-header descr-links">
-    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-    				<span class="sr-only">Toggle navigation</span> 
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    			</button>
-    		</div>
-    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    			<ul class="nav navbar-nav navbar-right  descr-links">
-    				    					    						<li><a target="" href="#howitworks">How It Works</a></li>
-    					    				    					    						<li><a target="" href="https://teams.gohachi.com/demo">Product Tour</a></li>
-    					    				    					    						<li><a target="" href="#pricing">Pricing</a></li>
-    					    				    					    						<li><a target="_blank" href="https://teams.gohachi.com/recruitment-savings-calculator">Savings Calculator</a></li>
-    					    				    					    						<li><a target="_blank" href="https://help.gohachi.com/hc/en-us/sections/115000013189-Basics">FAQ</a></li>
-    					    				    					    						<li><a target="_blank" href="https://blog.gohachi.com/">BLOG</a></li>
-    					    				    					    						<li><a target="" href="https://www.gohachi.com/teamsLogin">Existing User</a></li>
-    					    				                </ul>
-    		</div>
-    	</div>
-    </nav>                
-</header>
-    	        <div id="wrapper">
-            <script async="" src="//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.8/ouibounce.min.js"></script>
-
-	<script type="text/javascript" src="//dujl9qf395ztu.cloudfront.net/team/js/landing/index.js"></script>
-
-	<link rel="stylesheet" type="text/css" href="//dujl9qf395ztu.cloudfront.net/team/css/landing/index_index.css">
+                	
+    	    
 <style>
     .hiw-image {
         background-image: url("hiw.jpg");
     }
 </style>
 <div id="main">
-	<section class="top-video container">
-	<div class="row">
-        <div class="col-xs-12 col-md-10 col-md-offset-1 text-center">
-        	<div class="row">
-        		<div class="col-xs-12">
-            <h1 class="main-heading text-center">Best way to hire top talent</h1>
-            <h2 class="sub-heading text-center">
-            	Hachi helps you hire top talent quickly and cost-effectively, using data-driven, one-click employee referrals
-        	</h2>
-        </div>
-        <br>
-        <div class="col-sm-2 col-md-3 col-xs-12"></div>
-        <div class="col-sm-8 col-md-6 col-xs-12 form-container backdrop-form">
-        	<div id="loginEmailError-email-input1" style="color:#D31010;"></div>
-        	<center>
-            <form method="POST" action="https://teams.gohachi.com/" class="form-inline form-mail" accept-charset="utf-8" onsubmit="return validateLogin('email-input1')">
-                <div class="form-group col-sm-8 col-xs-8 backdrop-form-input">
-                    <div class="input-group email-container  email-chunk">
-                        <input name="data[TeamInterestlist][email]" id="email-input1" type="text" required="true" placeholder="Work email address" class="form-control email-field-chunk">
-                    </div>
-                </div>
-                <div class="form-group col-sm-2 col-md-2 col-xs-8  backdrop-form-input">
-                    <div class="input-group" style="width: 100%">
-                        <button style="width: 100%" class="btn btn-danger btn-emailButton" id="email-button" type="submit">Try For Free</button>
-                    </div>
-                </div>
-            </form>
-            </center>
-        </div>
-        
-        <div class=" col-sm-2 col-md-3 col-xs-12"></div>
-        <h2 class="emp-count"></h2>
-        <!-- 
-        <div class="col-sm-12 col-xs-12">
-        	<h2  class = 'links-3types'>
-        		<a href = 'https://help.gohachi.com/hc/en-us/articles/115000065645-How-does-Hachi-work-for-employers-' target ='_blank'>Employers</a> | 
-        		<a href = 'https://help.gohachi.com/hc/en-us/articles/115000065665-How-does-Hachi-work-for-hiring-managers-' target ='_blank'>Hiring Managers</a> | 
-        		<a href = 'https://help.gohachi.com/hc/en-us/articles/115000063509-How-does-Hachi-work-for-recruiters-' target ='_blank'>Recruiters</a>
-        	</h2>
-        </div>
-        -->
-        <div class="row">
-    <div class="col-xs-12 col-md-10 col-md-offset-1 col-centered">
-        <div class="embed-container">
-	        <iframe src="https://player.vimeo.com/video/208572786" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-        </div>
-    </div>
-</div>
-        <br>
-        <br>
-        </div>
-        </div>
-    </div>
-    </section>
-    <section class="intro container hm-index-testimonials-container" id="hm-index">
-        <div class="row"><section class="testimonials-big">
-<div class="col-sm-12 speech-container">
-		
-        <div class="col-sm-4 col-xs-12 person-container">
-        	<div class="col-xs-11 col-sm-12 speech"><p>Absolutely loving Hachi!</p></div>
-            <div class="col-sm-3 col-xs-4 person-avatar">
-                    <span class="circle-image">
-                        <img src="//dujl9qf395ztu.cloudfront.net/images/Gary.jpeg" alt="Gary">
-                    </span>
-            </div>
-            <div class="col-sm-8 col-xs-8 person-descr">
-                Gary Conaway<br>
-                <span class="reduced-title">Engineering Leadership Recruiter</span><br>
-                <div><div class="companyLogo amazon"></div></div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-12 person-container">
-        	<div class="col-xs-11 col-sm-12 speech"><p>Hachi could change recruiting.</p></div>
-            <div class="col-sm-3 col-xs-4 person-avatar">
-                        <span class="circle-image">
-                            <img src="//dujl9qf395ztu.cloudfront.net/images/Blake.jpg" alt="Blake">
-                        </span>
-            </div>
-            <div class="col-sm-8 col-xs-8 person-descr">
-                Blake Wittman<br>
-                <span class="reduced-title">CEO</span><br>
-                <div><div class="companyLogo goodcall"></div></div>
-            </div>
-        </div>
-
-        <div class="col-sm-4 col-xs-12 person-container">
-        	<div class="col-xs-11 col-sm-12 speech"><p>Recruiters you are going to want this.</p></div>
-            <div class="col-sm-3 col-xs-4 person-avatar">
-                        <span class="circle-image">
-                            <img src="//dujl9qf395ztu.cloudfront.net/images/bryan.jpg" alt="Bryan">
-                        </span>
-            </div>
-            <div class="col-sm-8 col-xs-8 person-descr">
-                Bryan Wilson<br>
-                <span class="reduced-title">Director of Operations</span><br>
-                <div><div class="companyLogo exelare"></div></div>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
-        <hr>
-        <h1 class="inner-headings">Hire top talent quickly and cost-effectively</h1>
-        <div class="container">
-        	<div class="row description" style="margin-bottom: 3vw !important;">
-        		<div class="col-xs-12 col-sm-7 descr-content center-block" style="float:none !important;">
-        			<p class="text-center">
-        				Data-driven, one-click employee referrals increase referral volume - helping you hire faster, while reducing cost per hire
-        			</p>
-        		</div>
-        	</div>
-            <div class="row description">
-                    <div class="col-md-4 col-sm-4 col-xs-12 descr-col">
-                        <div class="col-sm-12 col-xs-12 descr-content">
-                            <h4>Top Talent</h4>
-                            <p>Talent knows talent. Get high quality candidates personally referred by your employees and trusted friends.</p>
-                        </div>
-                    </div>
-					<div class="col-md-4 col-sm-4 col-xs-12 descr-col">
-                        <div class="col-sm-12 col-xs-12 descr-content">
-                            <h4>Data-driven Recommendations</h4>
-                            <p>Hachi's candidate-matching algorithm - built on top of a deep data mining and machine learning platform - searches your employee's networks to find candidates best suited for the job.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 descr-col">
-                        <div class="col-sm-12 col-xs-12 descr-content">
-                            <h4>One-click Referrals</h4>
-                            <p>Employees receive personalized email with list of candidates they can refer for your job openings. They can instantly make a referral by clicking “Refer” button in the email. No need to log in to any portal, or try to remember which of their 1,000+ friends match the job requirement.</p>
-                        </div>
-                    </div>
-            </div>
-            <br>
-            <div class="row description">
-                    <div class="col-sm-4 col-xs-12 descr-col">
-                        <div class="col-sm-12 col-xs-12 descr-content">
-                            <h4>Lower Cost-per-Hire</h4>
-                            <p>Slashes hiring cost by ~55%, as compared to traditional recruiting.</p>
-                        </div>
-                    </div>
-					<div class="col-sm-4 col-xs-12 descr-col">
-                        <div class="col-sm-12 col-xs-12 descr-content">
-                            <h4>Lower Time-to-Hire</h4>
-                            <p>Reduces time-to-hire by 25-30%. It takes less time and resources to hire a new employee based on employee referral.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-xs-12 descr-col">
-                        <div class="col-sm-12 col-xs-12 descr-content">
-                            <h4>Better Retention</h4>
-                            <p>Increase employee retention by 1.5x - 2x.</p>
-                        </div>
-                    </div>
-            </div>
-            <br>
-            <div class="row description">
-                <div class="col-sm-12 col-xs-12 descr-col">
-                    <div class="col-sm-12 col-xs-12 descr-content">
-                        <h4>Exponential Reach Across All Major Professional and Social Networks</h4>
-                        <p>Hachi is built on top of a constantly growing huge network of 60 million professionals from over 200,000 organizations, with 52 billion relationships. Hachi searches not only your employees’ direct connections but also their friends of friends on all major professional and social networks. So if your employee knows someone through LinkedIn and they know someone on Facebook, you’ll know about them. This reach - well beyond employees’ first degree networks - expands your recruitment drive exponentially. </p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row description">
-	            <div class="col-sm-12 col-xs-12 descr-col">
-                    <div class="col-sm-12 col-xs-12 descr-content text-center">
-	            		<p class="gray">Every candidate you would ever want to hire is potentially within your own employee network</p>
-	            	</div>
-            	</div>
-            </div>
-            <div class="row" id="levchin-container">
-                <br>
-                <!--<div class="col-sm-1 col-xs-1"></div>-->
-                <div class="col-sm-7 col-xs-12 col-sm-offset-1 speech" id="levchin-speech"><p>Almost everyone in your team actually knows more good people than they believe they know.</p></div>
-                <div class="col-sm-3 col-xs-12 person-container" id="levchin-person">
-                    <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-xs-6 person-avatar" id="levchin-avatar">
-                            <span class="circle-image">
-                                <img src="//dujl9qf395ztu.cloudfront.net/images/max-levchin.jpg" alt="Max levchin">
-                            </span>
-                    </div>
-                    <div class="col-lg-8 col-sm-6 col-xs-5 person-descr" id="levchin-descr" style="text-align: left;">
-                       <span>Max Levchin<br>
-                        Co-Founder, PayPal<br></span>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--</div>-->
-    <section id="numbers">
-    	<div class="container">
-        	<div class="row">
-        		<div class="col-sm-12">
-        			<p class="heading">Hachi in Numbers</p>
-    			</div>
-    		</div>    
-        	<div class="row">
-        		<div class="col-sm-12">
-        			<ul>
-        				<li>
-        					<h5>200,000</h5>
-        					<p>Hachi's database has employee network of 200,000 companies</p>
-        				</li>
-        				<li>
-        					<h5>15</h5>
-        					<p class="two-digits">Minutes to get started</p>
-        				</li>
-        				<li>
-        					<h5><span>&lt;</span>2</h5>
-        					<p class="two-digits longer">Days to start getting referrals</p>
-        				</li>
-        				<li>
-        					<h5>14</h5>
-        					<p class="two-digits">Referrals to Hire ratio</p>
-        				</li>
-        				<li>
-        					<h5>96,000</h5>
-        					<p>Referral recommendations made so far</p>
-        				</li>
-        			</ul>
-        		</div>
-        	</div>
-    	</div>
-    </section>
+<div class="container">
     <section id="howitworks">
      	<div class="container">
             <div class="row">
             	<h1 id="howitworkshead" class="">How it works</h1>
             </div>
-            <!--div class="row hiw-enumerate">
-        		<div class="col-xs-12 col-md-4 col-sm-4 hiw-point hiw-point-1">
-        			<div class="inner">
-        				<h5>Signup</h5>
-        				<p class="size-18">Employers / Hiring Managers / Recruiters can signup and get started in 15 minutes.</p>
-        			</div>
-        		</div>
-        		<div class="col-xs-12 col-md-4 col-sm-4 hiw-point hiw-point-2">
-        			<div class="inner">
-        				<h5>Invite Employees</h5>
-        				<p>Hachi works best when your whole team is onboard. To invite your employees, coworkers and trusted friends, simply send them the invite link provided on your Hachi dashboard.</p>
-        			</div>
-        		</div>
-        		<div class="col-xs-12 col-md-4 col-sm-4 hiw-point hiw-point-3">
-        			<div class="inner">
-        				<h5>Post Jobs / Connect Applicant Tracking System</h5>
-        				<p>Post your jobs. Or, connect your Applicant Tracking System and we can directly fetch jobs from there.</p>
-        			</div>
-        		</div>
-        		
-            </div-->
             <div class="row">
                 <div class="col-md-3 col-lg-3 col-xs-12 col-sm-4 point-card card-1">
                     <div class="row">
-                        <h2>Signup</h2>
-                        <hr>
+                        <h2>Sign-Up</h2>
+                        <hr id="hr1">
                         <p>
                             Employers / Hiring Managers / Recruiters can signup and get started in 15 minutes.
                         </p>
@@ -336,331 +44,70 @@
                 <div class="col-md-3 col-lg-3 col-xs-12 col-sm-4 point-card card-2">
                     <div class="row">
                         <h2>Invite Employees</h2>
-                        <hr>
+                        <hr id="hr2">
                         <p>
-                            Hachi works best when your whole team is onboard. To invite your employees, coworkers and trusted friends, simply send them the invite link provided on your Hachi dashboard.
+                            Simply send the invite link on your Hachi Dashboard to get your whole team together and start hiring!
                         </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xs-12 col-sm-4 point-card card-3">
                     <div class="row">
                         <h2>Post Jobs / Connect ATS</h2>
-                        <hr>
+                        <hr id="hr3">
                         <p>
-                            Post your jobs. Or, connect your Applicant Tracking System and we can directly fetch jobs from there.
+                            No more hardwork! Just connect and we'll do the rest.
                         </p>
                     </div>
                 </div>
             </div>
-			<div class="row hiw-screen">
-				<div class="col-md-12 col-lg-4 hiw-text-container">
-					<h5>One-click Referrals</h5>
+			<div class="row imgrow">
+				<div class="col-md-4 col-lg-4" id="hiwtext1">
+					<h1>One-click Referrals</h1>
 					<p>When you post a job on Hachi or connect your Applicant Tracking System (ATS), Hachi's candidate matching algorithm searches your team's immediate (their direct connections) and extended network (their friends of friends) on various social and professional networks for matching candidates.</p>
 					<p>Employees receive a personalized email with a list of potential candidates that they can refer for your job openings. </p>
 					<p>Employees can instantly make a referral by clicking on the "Refer" button in the email. They don’t need to log in to any portal, or try to remember which of their 1,000+ friends match the job requirement.</p>
 				</div>
-				<div class="col-md-12 col-lg-8 pull-right text-right hiw-image-container">
-					<div class="hiw-image hiw-image-1"></div>
+				<div class="col-md-offset-1 col-lg-offset-1 col-md-7 col-lg-7">
+					<img src="hiw1.jpg" class="img-responsive hiwimg">
+			
 				</div>
 			</div>
-			<div class="row hiw-screen  flex-rev">
-				<div class="col-md-12 col-lg-4  hiw-text-container">
-					<h5>Candidate is Notified</h5>
+			<div class="row imgrow">
+				<div class="col-md-7 col-lg-7">
+					<img src="hiw2.jpg" class="img-responsive hiwimg">
+				</div>	
+				<div class="col-md-offset-1 col-lg-offset-1 col-md-4 col-lg-4  hiw-text-container">
+					<h1>Candidate is Notified</h1>
 					<p>When an employee makes a referral, the candidate is informed, the hiring manager is notified, and the referral is sent to ATS.</p>
 				</div>
-				<div class="col-md-12 col-lg-8 pull-left text-left hiw-image-container">
-					<div class="hiw-image hiw-image-2 no-shadow"></div>
-				</div>
+				
 			</div>
-			<div class="row hiw-screen">
-				<div class="col-md-12 col-lg-4 hiw-text-container">
-					<h5>Review, Shortlist, Hire</h5>
+			<div class="row imgrow">
+				<div class="col-md-4 col-lg-4">
+					<h1>Review, Shortlist, Hire</h1>
 					<p>Hiring managers can use their Hachi dashboard (or their ATS) to review, shortlist, and hire top talent.</p>
 				</div>
-				<div class="col-md-12 col-lg-8 pull-right text-right hiw-image-container">
-					<div class="hiw-image hiw-image-3"></div>
+				<div class="col-md-offset-1 col-lg-offset-1 col-md-7 col-lg-7">
+					<img src="hiw3.jpg" class="img-responsive hiwimg">
 				</div>
 			</div>
-			<div class="row hiw-screen flex-rev no-border">
-				<div class="col-md-12 col-lg-4 hiw-text-container">
-					<h5>Track Status</h5>
+			<div class="row imgrow">
+				<div class=" col-md-7 col-lg-7">
+					<img src="hiw4.png" class="img-responsive hiwimg">
+				</div>
+				<div class="col-md-offset-1 col-lg-offset-1 col-md-4 col-lg-4 hiw-text-container">
+					<h1>Track Status</h1>
 					<p>Referral process is kept transparent, and employees can track the status of their referrals.</p>
 				</div>
-				<div class="col-md-12 col-lg-8 pull-left text-left hiw-image-container">
-					<div class="hiw-image hiw-image-4"></div>
-				</div>
+
 			</div>
         </div>
     </section>
-<div class="not-task">
-    <section class="intro container  hm-index-testimonials-container lower">
-        <div class="row"><section class="testimonials-big">
-<div class="col-sm-12 speech-container">
-		
-        <div class="col-sm-4 col-xs-12 person-container">
-        	<div class="col-xs-11 col-sm-12 speech"><p>Absolutely loving Hachi!</p></div>
-            <div class="col-sm-3 col-xs-4 person-avatar">
-                    <span class="circle-image">
-                        <img src="//dujl9qf395ztu.cloudfront.net/images/Gary.jpeg" alt="Gary">
-                    </span>
-            </div>
-            <div class="col-sm-8 col-xs-8 person-descr">
-                Gary Conaway<br>
-                <span class="reduced-title">Engineering Leadership Recruiter</span><br>
-                <div><div class="companyLogo amazon"></div></div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-12 person-container">
-        	<div class="col-xs-11 col-sm-12 speech"><p>Hachi could change recruiting.</p></div>
-            <div class="col-sm-3 col-xs-4 person-avatar">
-                        <span class="circle-image">
-                            <img src="//dujl9qf395ztu.cloudfront.net/images/Blake.jpg" alt="Blake">
-                        </span>
-            </div>
-            <div class="col-sm-8 col-xs-8 person-descr">
-                Blake Wittman<br>
-                <span class="reduced-title">CEO</span><br>
-                <div><div class="companyLogo goodcall"></div></div>
-            </div>
-        </div>
 
-        <div class="col-sm-4 col-xs-12 person-container">
-        	<div class="col-xs-11 col-sm-12 speech"><p>Recruiters you are going to want this.</p></div>
-            <div class="col-sm-3 col-xs-4 person-avatar">
-                        <span class="circle-image">
-                            <img src="//dujl9qf395ztu.cloudfront.net/images/bryan.jpg" alt="Bryan">
-                        </span>
-            </div>
-            <div class="col-sm-8 col-xs-8 person-descr">
-                Bryan Wilson<br>
-                <span class="reduced-title">Director of Operations</span><br>
-                <div><div class="companyLogo exelare"></div></div>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
-    </section>
-    <section class="media">
-        <a href="http://www.gohachi.com/media" target="_blank"><img class="img-responsive" src="//dujl9qf395ztu.cloudfront.net/images/media_1.png" style="margin: 0 auto;" alt="Media References"></a>
-	</section>
-    
-    <!--
-    <div class="container customers">
-         <hr />
-        <br />
-        <div class="row"><h5 id="people-trust" style="font-weight:400;color: #56565E;"> People who trust us belong to </h5></div>
-        <div class="row">
-            <div class="container customers">
-                <div class="row links">
-                	<div class = 'col-xs-12 col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12'>
-                        <ul>
-                            <li><span><div class="companyLogo google"></div></span></li>
-                            <li><span><div class="companyLogo kpmg"></div></span></li>
-                            <li><span><div class="companyLogo canon"></div></span></li>
-                            <li><span><div class="companyLogo disney"></div></span></li>
-                            <li><span><div class="companyLogo intuit"></div></span></li>
-                            <li><span><div class="companyLogo walmart"></div></span></li>
-                            <li><span><div class="companyLogo paytm"></div></span></li>
-                            <li><span><div class="companyLogo salesforce"</div></span></li>
-                            <li><span><div class="companyLogo visa"></div></span></li>
-                            <li><span><div class="companyLogo flipkart"></div></span></li>
-                        </ul>
-                	</div>
-                </div>
-            </div>
-        </div>
-        <br />
-        
-    </div>
-    -->
-    <div class="row" id="email-container3" style="background:#565656;">
-		<div class="signupPadding email-chunk" style="background: #565656;">
-	<div class="col-sm-12">
-		<h5 style="color: #fff; text-align: center;">
-			Sign up for free and claim your company's employee network
-		</h5>
-	</div>
-	<div class="col-sm-3 col-xs-12"></div>
-	<div class="col-sm-6 col-xs-12 form-container  backdrop-form">
-		<div id="loginEmailError-email-input4" style="color: #D31010; text-align: center"></div>
-		<form method="POST" action="https://teams.gohachi.com/" class="form-inline form-mail" id="popupForm" accept-charset="utf-8" onsubmit="return validateLogin('email-input4')">
-			<div class="form-group col-sm-8 col-xs-8  backdrop-form-input">
-				<div class="input-group email-container">
-					<input name="data[TeamInterestlist][email]" id="email-input4" type="text" required="true" placeholder="Work email address" class="form-control email-field-chunk">
-				</div>
-			</div>
-
-			<div class="form-group col-sm-4 col-xs-8  backdrop-form-input">
-				<div class="input-group" style="width: 100%">
-					<button class="btn btn-danger btn-emailButton" style="width: 100%" id="email-button" type="submit">Get Started</button>
-				</div>
-			</div>
-		</form>
-	</div>
-	<div class="col-sm-4 col-xs-4"></div>
-	<h2 class="emp-count"></h2>
-	<br>
-</div>
-    </div>
-    <section id="pricing">
-        <h1>Pricing</h1>
-        <p class="orange">
-            14-day Free Trial. 
-            No credit card required to start free trial.
-        </p>
-        <div class="price-table col-xs-12 col-sm-11 col-md-10 col-lg-8 center-block" style="float:none;">
-            <table>
-                <tbody><tr>
-                    <th class="zero">&nbsp;</th>
-                    <th>STARTER</th>
-                    <th class="most-popular"><div class="mp-flag">most popular</div>GROWTH</th>
-					<th>ENTERPRISE</th>
-                </tr>
-                <tr class="pricerow">
-                    <td width="10%">Monthly Subscription</td>
-                    <td width="30%"><span class="price">$99</span></td>
-                    <td width="30%"><span class="price">$499</span></td>
-					<td width="30%" rowspan="5" class="rowspan">
-					    <p>For Large Teams</p>
-					    <p>Our most comprehensive plan for large teams, with advanced features and dedicated support.</p>
-					    <p>Contact us for Custom Pricing</p>
-					</td>
-                </tr>
-                <tr>
-                    <td>Open Jobs</td>
-                    <td><span class="info">1</span></td>
-                    <td><span class="info">5</span></td>
-                </tr>
-				<tr>
-                    <td>Referrals</td>
-                    <td><span class="info">Unlimited</span></td>
-                    <td><span class="info">Unlimited</span></td>
-                </tr>
-				<tr>
-                    <td>Team Size</td>
-                    <td><span class="info">Unlimited</span></td>
-                    <td><span class="info">Unlimited</span></td>
-                </tr>
-				<tr>
-                    <td>Admin/Recruiters</td>
-                    <td><span class="info">1</span></td>
-                    <td><span class="info">Unlimited</span></td>
-                </tr>
-                
-				<tr class="no-border buttons">
-                    <td></td>
-                    <td>
-            			<form method="POST" action="https://teams.gohachi.com/" accept-charset="utf-8">
-            				<input type="hidden" name="data[TeamInterestlist][conditional_plan_id]" value="1">
-							<button class="btn btn-primary onboarding" type="submit">Start Free Trial</button>            			
-                		</form>
-                	</td>
-                    <td>
-            			<form method="POST" action="https://teams.gohachi.com/" accept-charset="utf-8">
-            				<input type="hidden" name="data[TeamInterestlist][conditional_plan_id]" value="2">
-							<button class="btn btn-primary onboarding" type="submit">Start Free Trial</button>            			
-                		</form>
-                    </td>
-                    <td><a href="/thanks/4" class="btn btn-primary onboarding">Contact Sales</a></td>
-                </tr>
-                
-            </tbody></table>
-        </div>
-    </section>
-    
-    
-</div>
-
-<div class="mailPopup" id="mailPopup" style="display: none;">
-<div class="row" style="background:#565656;">
-        <p class="popupClose" style="color:white;text-align:right;margin:0"><span><a href="javascript:void(0)">x</a></span></p>
-        <div class="signupPadding email-chunk" style="background: #565656;">
-	<div class="col-sm-12">
-		<h5 style="color: #fff; text-align: center;">
-			Sign up for free and claim your company's employee network
-		</h5>
-	</div>
-	<div class="col-sm-3 col-xs-12"></div>
-	<div class="col-sm-6 col-xs-12 form-container  backdrop-form">
-		<div id="loginEmailError-popup" style="color: #D31010; text-align: center"></div>
-		<form method="POST" action="https://teams.gohachi.com/" class="form-inline form-mail" id="popupForm" accept-charset="utf-8" onsubmit="return validateLogin('popup')">
-			<div class="form-group col-sm-8 col-xs-8  backdrop-form-input">
-				<div class="input-group email-container">
-					<input name="data[TeamInterestlist][email]" id="popup" type="text" required="true" placeholder="Work email address" class="form-control email-field-chunk">
-				</div>
-			</div>
-
-			<div class="form-group col-sm-4 col-xs-8  backdrop-form-input">
-				<div class="input-group" style="width: 100%">
-					<button class="btn btn-danger btn-emailButton" style="width: 100%" id="email-button" type="submit">Get Started</button>
-				</div>
-			</div>
-		</form>
-	</div>
-	<div class="col-sm-4 col-xs-4"></div>
-	<h2 class="emp-count"></h2>
-	<br>
-</div>
-	</div>
-</div>
-<div class="overlays" style="height: 7337px; display: none;"></div>
-
-   			<footer id="footer" class="footer3">
-        <div class="footer-holder">
-          <strong class="title"><span>follow Hachi</span></strong>
-          <ul class="social-networks">
-            <li><a href="https://twitter.com/hachilabs " target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/gohachi" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://www.linkedin.com/company/hachi-labs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/+Gohachi/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-
-          <div class="info">
-            <div class="box">
-              <p class="pull-right">© 2017 Hachi Labs, Inc.</p>
-              <ul class="footer-lineup">
-                <li>
-                	<a href="https://teams.gohachi.com/demo">Product Tour</a>
-                	<br>
-                	<a target="_blank" href="https://help.gohachi.com">Support </a>
-                	<br>
-                	<a target="_blank" href="https://www.gohachi.com/terms">Terms</a>
-            	</li>
-                <li>
-                	<a target="_blank" href="https://www.gohachi.com/testimonials">Testimonials</a>
-                	<br>
-                	<a target="_blank" href="https://www.gohachi.com/media">Media</a>
-                	<br>
-                	<a target="_blank" href="https://www.gohachi.com/privacy">Privacy</a>
-            	</li>
-                <li>
-                	<a target="_blank" href="https://blog.gohachi.com/">Blog</a>
-                	<br>
-                	<a target="_blank" href="https://www.gohachi.com/about">About</a>
-                	<br>
-                	<a target="_blank" href="https://www.gohachi.com/contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-         </div>
-</footer>
-   				
-        </div>
-			    <script id="IntercomSettingsScriptTag">
+</div>	
     	
-    </script>
-    <script>
-    	$(function(){
-    		$('.logoutButton').click(function(e) {
-        		e.preventDefault();
-        		Intercom('shutdown');
-        		window.location = $(this).prop('href');
-    		});
-    	});
-	</script>
+    
     
 
-<script type="text/javascript" id="">setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/0829.js?"+Math.floor((new Date).getTime()/36E5);a.async=!0;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);</script></body>
+
 </html>

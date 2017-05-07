@@ -1,3 +1,7 @@
+.container {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 body {
   overflow-x: hidden !important;
   overflow-y: scroll; }
@@ -24,32 +28,57 @@ body {
     padding-top: 1em; }
   .point-card hr {
     border: none;
-    border-top: 1px solid #ccc;
-    margin-top: 17px !important;
-    margin-bottom: 30px !important; }
+    border-top: 1px solid #ccc; }
   .point-card p {
     text-align: left;
     padding: 0px 10px 5px 10px; }
 
-.card-1::before {
-  content: "1";
-  left: 1.9em;
-  bottom: 2.6em; }
+.card-1 {
+  padding-bottom: 1.7em; }
+  .card-1::before {
+    content: "1";
+    left: 1.9em;
+    bottom: 3.7em; }
 
 .card-2::before {
   content: "2";
   left: 1.9em;
   bottom: 3.7em; }
 
-.card-3::before {
-  content: "3";
-  left: 1.9em;
-  bottom: 3.6em; }
+.card-3 {
+  padding-bottom: 1.3em; }
+  .card-3::before {
+    content: "3";
+    left: 1.9em;
+    bottom: 3.6em; }
+
+#hr1 {
+  margin-top: 4.2em;
+  margin-bottom: 2em; }
+
+#hr2 {
+  margin-top: 4.2em;
+  margin-bottom: 2em; }
+
+#hr3 {
+  margin-top: 1.8em;
+  margin-bottom: 2em; }
+
+.imgrow {
+  margin: 5em 0; }
+  .imgrow .hiwimg {
+    box-shadow: 0px 3px 0.7em #666; }
 
 @media only screen and (min-width: 1200px) {
   .point-card {
-    margin-left: 48.75px;
-    margin-right: 48.75px; } }
+    margin-left: 60.75px;
+    margin-right: 60.75px; }
+
+  .card-1 {
+    margin-left: 31.75px; }
+
+  .card-3 {
+    margin-right: 24.75px; } }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .point-card {
     margin-left: 48.75px;
@@ -125,10 +154,6 @@ section.media {
   font-weight: 400;
   font-size: 6.2vw;
   margin-bottom: 20px; }
-
-#main hr {
-  margin-top: 25px;
-  margin-bottom: 40px; }
 
 #main .customers {
   color: #565656;
