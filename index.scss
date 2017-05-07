@@ -1,0 +1,743 @@
+
+
+
+body {
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+}
+
+#howitworkshead {
+    padding-bottom: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.point-card {
+    box-shadow: 0px 5px 1em #666;
+    &::before {
+        text-align: center;
+        position: absolute;
+        background: #428bca;
+        font-size: 4em;
+        color: white;
+        border-radius: 100%;
+        width: 1.5em;
+        height: 1.5em;
+        display: block;
+        
+    }
+
+    h2 {
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin-top: 17px !important;
+        margin-bottom: 30px !important;
+    }
+    p { 
+        text-align: left;
+        padding: 0px 10px 5px 10px;
+    }
+
+}
+
+.card-1::before {
+    content: "1";
+    left: 1.9em;
+    bottom: 2.6em;
+}
+
+.card-2::before {
+    content: "2";
+    left: 1.9em;
+    bottom: 3.7em;
+}
+
+.card-3::before {
+    content: "3";
+    left: 1.9em;
+    bottom: 3.6em;
+}
+
+@media only screen and (min-width: 1200px) {
+    .point-card {
+        margin-left: 48.75px;
+        margin-right: 48.75px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .point-card {
+        margin-left: 48.75px;
+        margin-right: 48.75px;
+    }
+    .card-1 {
+        margin-left: 22.5px;
+    }
+    .card-3 {
+        margin-right: 22.5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hm-index-testimonials-container.lower {
+  margin-top: 80px; }
+
+#wrapper {
+  padding-top: 0em !important; }
+
+.col-md-offset-1-5 {
+  margin-left: 10%; }
+
+#header.header-landing {
+  max-width: 1230px;
+  margin: 0 auto;
+  left: 0;
+  right: 0; }
+  #header.header-landing nav .navbar-toggle {
+    margin-top: 0px;
+    padding-top: 4px; }
+
+section.media {
+  padding-top: 10px; }
+
+.container.customers .companyLogo {
+  zoom: 1.3;
+  -moz-transform: scale(1.3);
+  -moz-transform-origin: 0 0; }
+
+#people-trust {
+  font-size: 18px;
+  margin-bottom: 2em; }
+
+#email-container3 {
+  margin-top: 80px; }
+
+.contact-us {
+  text-align: left;
+  padding-left: 0 !important; }
+
+#main .signupPadding, .mailPopup .signupPadding {
+  padding: 35px 0 40px; }
+
+#main .top-video {
+  margin-top: 125px; }
+  #main .top-video .main-heading {
+    line-height: 0.75em;
+    padding-left: 0;
+    padding-right: 0;
+    color: #565656; }
+  #main .top-video .sub-heading {
+    color: #565656;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em; }
+  #main .top-video .backdrop-form {
+    margin-bottom: 1.5em; }
+#main .intro h1.main-heading {
+  color: #fff;
+  font-weight: 400;
+  font-size: 6.2vw;
+  margin-bottom: 20px; }
+#main hr {
+  margin-top: 25px;
+  margin-bottom: 40px; }
+#main .customers {
+  color: #565656;
+  font-size: 17px;
+  line-height: 26px;
+  overflow: hidden;
+  text-align: center; }
+  #main .customers .links {
+    overflow: hidden;
+    text-align: center; }
+  #main .customers ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.4); }
+    #main .customers ul li {
+      float: left;
+      padding: 0;
+      min-height: 87px;
+      max-height: 87px;
+      width: 168px; }
+      #main .customers ul li a {
+        display: block;
+        padding: 12px 22px 9px 20px; }
+        #main .customers ul li a:hover {
+          text-decoration: none;
+          background-color: #333;
+          background-color: rgba(0, 0, 0, 0.05);
+          color: #fff; }
+      #main .customers ul li span {
+        display: block;
+        padding: 12px 22px 9px 20px; }
+#main #numbers {
+  background: #565656;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 2.5em 0 2.5em;
+  margin: 3em 0 5em; }
+  #main #numbers p.heading {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 2.2em; }
+  #main #numbers ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    #main #numbers ul li {
+      margin: 0;
+      padding: 0;
+      width: 19%;
+      display: inline-block;
+      vertical-align: top; }
+      #main #numbers ul li h5 {
+        font-size: 60px;
+        line-height: 65px;
+        margin-bottom: 0.4em; }
+        #main #numbers ul li h5 span {
+          font-size: 25px;
+          line-height: 45px; }
+      #main #numbers ul li p {
+        font-size: 18px;
+        line-height: 1.2em;
+        color: #dedede;
+        margin: 0 auto;
+        width: 210px; }
+        #main #numbers ul li p.two-digits {
+          width: 110px; }
+          #main #numbers ul li p.two-digits.longer {
+            width: 140px; }
+#main #howitworks #hw-header {
+  margin-top: 2em;
+  text-align: center; }
+#main #howitworks .hiw-enumerate {
+  margin: 3em 0 5em; }
+  #main #howitworks .hiw-enumerate .hiw-point .inner {
+    padding-left: 7px;
+    position: relative; }
+    #main #howitworks .hiw-enumerate .hiw-point .inner h5 {
+      font-weight: 600;
+      font-size: 24px;
+      color: #565656; }
+    #main #howitworks .hiw-enumerate .hiw-point .inner p {
+      margin: 0 0 1em 0;
+      font-size: 18px; }
+    #main #howitworks .hiw-enumerate .hiw-point .inner:before {
+      display: block;
+      width: 25px;
+      height: 25px;
+      color: #fff;
+      background: #565656;
+      border-radius: 25px;
+      position: absolute;
+      font-size: 17px;
+      left: -25px;
+      top: 0;
+      padding-left: 7px; }
+  #main #howitworks .hiw-enumerate .hiw-point-1 .inner:before {
+    content: "1";
+    padding-left: 10px; }
+  #main #howitworks .hiw-enumerate .hiw-point-2 .inner:before {
+    content: "2";
+    padding-left: 8px; }
+  #main #howitworks .hiw-enumerate .hiw-point-3 .inner:before {
+    content: "3";
+    padding-left: 8px; }
+#main #howitworks .hiw-screen {
+  margin-top: 6em;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center; }
+  #main #howitworks .hiw-screen.no-border {
+    border-bottom: none; }
+  #main #howitworks .hiw-screen.flex-rev {
+    flex-direction: row-reverse; }
+  #main #howitworks .hiw-screen .pull-right {
+    margin-left: auto;
+    order: 0; }
+  #main #howitworks .hiw-screen .hiw-image-container {
+    order: 1;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-right: 0; }
+    #main #howitworks .hiw-screen .hiw-image-container .hiw-image {
+      display: inline-block;
+      width: 710px;
+      margin-bottom: 2em;
+      box-shadow: 2px 2px 4px #888888, -1px -1px 2px rgba(80, 80, 80, 0.2); }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.no-shadow {
+        box-shadow: none; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-1 {
+        height: 767px;
+        background-position: 0 0; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-2 {
+        height: 284px;
+        background-position: 0 -767px; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-3 {
+        height: 768px;
+        background-position: 0 -1051px; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-4 {
+        height: 417px;
+        background-position: 0 -1819px; }
+  #main #howitworks .hiw-screen .hiw-text-container {
+    order: 1;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: left; }
+    #main #howitworks .hiw-screen .hiw-text-container h5 {
+      font-size: 30px; }
+    #main #howitworks .hiw-screen .hiw-text-container p {
+      font-size: 16px;
+      line-height: 1.42857;
+      margin-bottom: 1em;
+      color: #333; }
+
+/* Customers */
+#levchin-container {
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+#levchin-speech {
+  padding-bottom: 1em; }
+  #levchin-speech p {
+    font-size: 20px !important; }
+
+#levchin-avatar .circle-image {
+  width: 100px !important;
+  height: 100px !important; }
+  #levchin-avatar .circle-image img {
+    width: 100px !important;
+    height: 120px !important; }
+
+#levchin-descr {
+  text-align: left;
+  height: 100px;
+  padding-top: 25px; }
+  #levchin-descr span {
+    height: 100%; }
+
+.circle-image {
+  float: none !important;
+  display: inline-block !important; }
+
+#main {
+  max-width: 100%; }
+  #main .backdrop {
+    background-repeat: no-repeat;
+    background-position: top !important;
+    background-size: cover;
+    background-color: #65656E;
+    border-color: #53545B;
+    margin-bottom: 2em; }
+    #main .backdrop .contentOverBackdrop {
+      margin-top: 8em; }
+      #main .backdrop .contentOverBackdrop h2 {
+        font-size: 25px; }
+        #main .backdrop .contentOverBackdrop h2.links-3types {
+          color: #fff;
+          font-size: 22px;
+          margin-top: 70px; }
+          #main .backdrop .contentOverBackdrop h2.links-3types a {
+            color: #fff;
+            text-decoration: underline;
+            border-bottom: none; }
+  #main .intro {
+    padding-bottom: 2em; }
+    #main .intro h5 {
+      font-size: 1.3vw !important; }
+    #main .intro .last-subheader {
+      color: #fff;
+      font-size: 22px;
+      margin: 70px 0 0 0;
+      padding: 0 1em; }
+
+.form-mail {
+  padding-top: 5px; }
+
+.description .descr-content.text-center {
+  text-align: center; }
+.description .descr-content h4 {
+  font-size: 30px;
+  color: #565656;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  line-height: 30px; }
+.description .descr-content .gray {
+  font-size: 20px !important;
+  background: #e8e8e8;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left; }
+
+.pricing-head {
+  padding-top: 20px;
+  padding-left: 0px !important;
+  margin-bottom: 0px; }
+  .pricing-head .delim {
+    padding: 0 40px; }
+
+#main #pricing {
+  overflow: hidden;
+  text-align: center;
+  padding: 0 0 40px; }
+  #main #pricing h1 {
+    font-size: 3vw;
+    color: #565656;
+    margin-top: 80px;
+    margin: 2vw 0; }
+  #main #pricing .textbox {
+    max-width: 490px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 22px; }
+    #main #pricing .textbox a {
+      text-decoration: none;
+      border-bottom: 1px solid #e8e8e8; }
+  #main #pricing p.orange {
+    color: #02a8ed;
+    text-align: center;
+    margin: 1em 0 2em;
+    font-size: 20px; }
+    #main #pricing p.orange span {
+      text-decoration: underline; }
+  #main #pricing .price-table {
+    margin: 0 auto;
+    padding-top: 2.1em; }
+    #main #pricing .price-table .pricerow {
+      color: #d43f3a; }
+      #main #pricing .price-table .pricerow:first-child {
+        color: #403f3f; }
+    #main #pricing .price-table table {
+      width: 100%;
+      border: 1px solid #565656;
+      border-bottom-width: 0 !important;
+      border-left-width: 0 !important;
+      border-right-width: 0 !important;
+      border-top: none; }
+      #main #pricing .price-table table td {
+        text-align: center;
+        border: 1px solid #565656;
+        padding: 1.5em; }
+        #main #pricing .price-table table td:first-child {
+          color: #403f3f;
+          text-align: left;
+          font-size: 1.3em; }
+        #main #pricing .price-table table td.rowspan {
+          vertical-align: top; }
+        #main #pricing .price-table table td .price {
+          font-size: 2.3em; }
+        #main #pricing .price-table table td .info {
+          font-size: 1.3em;
+          display: block;
+          white-space: nowrap; }
+        #main #pricing .price-table table td p {
+          font-size: 0.9em;
+          color: gray;
+          margin-top: 5px !important;
+          margin-bottom: 0px !important;
+          color: #414141;
+          font-size: 1.2em;
+          margin-top: 1em !important; }
+      #main #pricing .price-table table tr.buttons td .onboarding {
+        font-size: 1.2em; }
+      #main #pricing .price-table table tr.no-border td {
+        border: none;
+        border-bottom-width: 0; }
+      #main #pricing .price-table table th {
+        text-align: center;
+        background-color: #e8e8e8;
+        font-weight: normal;
+        padding: 1.5em 1em;
+        font-size: 16px;
+        border: 1px solid #565656;
+        font-weight: bold; }
+    #main #pricing .price-table th.zero {
+      border-top: none;
+      border-left: none;
+      background: none; }
+    #main #pricing .price-table th.most-popular {
+      position: relative;
+      border: 1px;
+      z-index: -1;
+      border-top: 1px solid #565656; }
+      #main #pricing .price-table th.most-popular .mp-flag {
+        z-index: -2;
+        position: absolute;
+        width: 100%;
+        top: -2.1em;
+        left: 0;
+        background-color: #ffa500;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        padding: 0.3em 0;
+        font-weight: 400; }
+
+.hm-index-testimonials-container .person-container {
+  margin-bottom: 2em; }
+.hm-index-testimonials-container .speech {
+  padding: 0; }
+  .hm-index-testimonials-container .speech p {
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding: 20px;
+    font-size: 18px;
+    text-align: left; }
+.hm-index-testimonials-container .person-avatar {
+  padding-left: 0px;
+  padding-right: 0px; }
+.hm-index-testimonials-container .person-descr {
+  padding-right: 0px;
+  font-size: 18px;
+  text-align: left; }
+  .hm-index-testimonials-container .person-descr .reduced-title {
+    font-size: 15px; }
+
+@media screen and (max-width: 320px) {
+  #main #howitworks #hw-header {
+    margin-top: 2em;
+    text-align: center; }
+  #main #howitworks .hiw-enumerate {
+    margin: 0em 0 1em !important; }
+  #main .backdrop .contentOverBackdrop {
+    margin-top: 10em; }
+  #main #howitworks .hiw-screen .hiw-image-container {
+    width: 100%; }
+    #main #howitworks .hiw-screen .hiw-image-container .hiw-image {
+      background-size: 100% !important;
+      width: 100% !important; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-1 {
+        height: 313px !important; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-2 {
+        height: 117px !important;
+        background-position: 0 -313px !important; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-3 {
+        height: 313px !important;
+        background-position: 0 -430px !important; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-4 {
+        height: 170px !important;
+        background-position: 0 -743px !important; }
+
+  #footer .info {
+    width: 100% !important; }
+    #footer .info .box {
+      width: 100% !important; }
+  #footer .pull-right {
+    float: none !important;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em; }
+  #footer .footer-lineup {
+    width: 100%; }
+    #footer .footer-lineup li {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: block;
+      width: 100%;
+      text-align: center; } }
+@media screen and (max-width: 420px) and (min-width: 321px) {
+  .price-table table tr.buttons td .onboarding {
+    font-size: 7px !important;
+    padding: 6px 1em 4px; } }
+@media screen and (max-width: 568px) and (min-width: 421px) {
+  .price-table table tr.buttons td .onboarding {
+    font-size: 9px !important;
+    padding: 6px 1em 4px; } }
+@media only screen and (max-width: 768px) and (min-width: 569px) {
+  .price-table table tr.buttons td {
+    padding: 0.6em 0.3em; }
+    .price-table table tr.buttons td .onboarding {
+      font-size: 12px !important; } }
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .price-table table tr.buttons td {
+    padding: 0.6em 0.3em; }
+    .price-table table tr.buttons td .onboarding {
+      font-size: 14px !important; } }
+@media screen and (max-width: 420px) {
+  #main #pricing p.orange {
+    margin: 1em 0 1.5em; }
+  #main h1#hw-header {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    text-align: left; }
+  #main .backdrop .contentOverBackdrop {
+    margin-top: 5em; }
+  #main .price-table {
+    margin: 0;
+    padding: 0; }
+    #main .price-table table td {
+      padding: 8px !important;
+      font-size: 8px !important; }
+      #main .price-table table td.rowspan {
+        vertical-align: top; }
+      #main .price-table table td .price {
+        font-size: 10px !important; }
+      #main .price-table table td .info {
+        font-size: 8px !important;
+        display: block;
+        white-space: nowrap; }
+      #main .price-table table td p {
+        font-size: 8px !important;
+        margin-top: 5px !important;
+        margin-bottom: 0px !important; }
+    #main .price-table table th {
+      font-size: 8px !important;
+      padding: 8px !important; }
+    #main .price-table table tr.buttons td {
+      padding: 1em 3px !important; }
+      #main .price-table table tr.buttons td .onboarding {
+        font-size: 7px !important;
+        padding: 6px 7px 4px !important; }
+    #main .price-table th.most-popular .mp-flag {
+      top: -18px !important;
+      font-size: 1.1em !important;
+      padding: 0.3em 0 !important; } }
+@media screen and (max-width: 568px) {
+  #main .backdrop .contentOverBackdrop {
+    margin-top: 7em; } }
+@media only screen and (max-width: 768px) {
+  #main .top-video .main-heading {
+    font-size: 60px;
+    line-height: 1em; }
+  #main hr {
+    margin: 2em 0; }
+  #main .backdrop .contentOverBackdrop .col-xs-12 {
+    padding: 0; }
+  #main #numbers {
+    margin-bottom: 2em; }
+    #main #numbers p.heading {
+      margin-bottom: 1.2em; }
+    #main #numbers ul li {
+      width: 100%;
+      display: block; }
+      #main #numbers ul li h5 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 0; }
+      #main #numbers ul li p {
+        font-size: 18px;
+        line-height: 1.2em;
+        color: #dedede;
+        margin-top: 1em;
+        margin-bottom: 2em; } }
+@media only screen and (max-width: 1024px) {
+  #main #howitworks #hw-header {
+    margin-top: 2em;
+    text-align: center; }
+  #main #howitworks .hiw-enumerate {
+    margin: 3em 0 5em; }
+    #main #howitworks .hiw-enumerate .hiw-point .inner {
+      padding-left: 7px;
+      position: relative; }
+      #main #howitworks .hiw-enumerate .hiw-point .inner h5 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px; }
+      #main #howitworks .hiw-enumerate .hiw-point .inner p {
+        margin: 0 0 1em 0; }
+  #main #howitworks .hiw-screen {
+    margin-top: 2em;
+    border-bottom: 1px solid #dbdbdb;
+    display: block; }
+    #main #howitworks .hiw-screen .pull-right {
+      margin: auto;
+      float: none !important; }
+    #main #howitworks .hiw-screen .text-right {
+      text-align: left !important; }
+    #main #howitworks .hiw-screen .hiw-image-container {
+      order: 1;
+      vertical-align: middle;
+      padding-left: 0;
+      padding-right: 0; }
+      #main #howitworks .hiw-screen .hiw-image-container .hiw-image {
+        display: inline-block;
+        width: 710px;
+        margin-bottom: 2em; }
+        #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-1 {
+          height: 767px;
+          background-position: 0 0; }
+        #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-2 {
+          height: 284px;
+          background-position: 0 -767px; }
+        #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-3 {
+          height: 768px;
+          background-position: 0 -1051px; }
+        #main #howitworks .hiw-screen .hiw-image-container .hiw-image.hiw-image-4 {
+          height: 417px;
+          background-position: 0 -1819px; }
+    #main #howitworks .hiw-screen .hiw-text-container {
+      order: 1;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: left; }
+      #main #howitworks .hiw-screen .hiw-text-container h5 {
+        font-size: 30px; }
+      #main #howitworks .hiw-screen .hiw-text-container p {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
+        color: #333; } }
+@media only screen and (max-width: 1024px) {
+  #main .intro h1.main-heading {
+    font-size: 60px !important;
+    line-height: 60px !important; }
+  #main .intro h1.inner-headings {
+    font-size: 40px !important;
+    line-height: 40px !important; }
+  #main h1#hw-header {
+    font-size: 40px;
+    line-height: 40px; }
+
+  #pricing h1 {
+    font-size: 40px !important;
+    line-height: 40px !important; } }
+@media only screen and (max-width: 1400px) {
+  #main .backdrop {
+    background-position: center center !important; }
+    #main .backdrop .contentOverBackdrop {
+      margin-top: 8em; } }
+@media only screen and (min-width: 1401px) {
+  #main .backdrop {
+    background-position: center center !important; }
+    #main .backdrop .contentOverBackdrop {
+      margin-top: 15em; } }
