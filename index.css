@@ -202,6 +202,11 @@ body {
     .card-3::before {
       left: 1.9em;
       bottom: 3.7em; } }
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .card-3 {
+    margin-right: 22.5px; }
+    .card-3::before {
+      bottom: 3.6em; } }
 /*
 
 
