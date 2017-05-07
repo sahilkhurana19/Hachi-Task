@@ -86,9 +86,19 @@ body {
 
 .imgrow {
   margin: 5em 0;
+  display: flex;
+  align-items: center;
   .hiwimg {
     box-shadow: 0px 3px 0.7em #666;
   }
+
+  .hiwtext {
+    p {
+      padding: 0.1em 0;
+    }
+  }
+
+  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -106,20 +116,166 @@ body {
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .hiwimg {
+      margin-top: 1em;
+    }
+
     .point-card {
         margin-left: 48.75px;
         margin-right: 48.75px;
     }
     .card-1 {
         margin-left: 22.5px;
+        padding-bottom: 0px;
+        &::before {
+          left: 1.5em;
+
+        }
+    }
+    .card-2 {
+      &::before {
+        left: 1.5em;
+      }
     }
     .card-3 {
         margin-right: 22.5px;
+        &::before {
+          left: 1.5em;
+        }
     }
 }
 
+@media only screen and (min-width: 450px) and (max-width: 1000px ) {
+     .hiwimg {
+      margin-top: 1em;
+    }
+  .imgrow {
+    display: block;
+  }
+  .point-card {
+    margin-top: 5em;
+  }
+  .card-1 {
+        margin-top: 1em;
+        padding-bottom: 0px;
+        &::before {
+          left: 1.6em;
+          bottom: 3.1em;
 
+        }
+    }
+    .card-2 {
+      &::before {
+        left: 1.6em;
+        bottom: 3.1em;
+      }
+    }
+    .card-3 {
+        margin-right: 22.5px;
+        &::before {
+          left: 1.6em;
+        }
+    }
+}
 
+@media only screen and (max-width: 450px) {
+     .hiwimg {
+      margin-top: 1em;
+    }
+  .imgrow {
+    display: block;
+  }
+  .point-card {
+    margin-top: 4em;
+  }
+  .card-1 {
+        margin-top: 1em;
+        padding-bottom: 0px;
+        &::before {
+          left: 2.7em;
+          bottom: 2.7em;
+
+        }
+    }
+    .card-2 {
+      &::before {
+        left: 2.7em;
+        bottom: 2.7em;
+      }
+    }
+    .card-3 {
+        margin-right: 22.5px;
+        &::before {
+          left: 2.7em;
+          bottom: 2.7em
+
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+     .hiwimg {
+      margin-top: 1em;
+    }
+  .imgrow {
+    display: block;
+  }
+  .card-1 {
+        margin-top: 1em;
+        padding-bottom: 0px;
+        &::before {
+          left: 2.3em;
+          bottom: 2.7em;
+
+        }
+    }
+    .card-2 {
+      &::before {
+        left: 2.3em;
+        bottom: 3.1em;
+      }
+    }
+    .card-3 {
+        margin-right: 22.5px;
+        &::before {
+          left: 2.3em;
+          bottom: 3.1em
+
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+     .hiwimg {
+      margin-top: 1em;
+    }
+  .imgrow {
+    display: block;
+  }
+  .card-1 {
+        margin-top: 1em;
+        padding-bottom: 0px;
+        &::before {
+          left: 1.9em;
+          bottom: 2.7em;
+
+        }
+    }
+    .card-2 {
+      &::before {
+        left: 1.9em;
+        bottom: 3.1em;
+      }
+    }
+    .card-3 {
+        margin-right: 22.5px;
+        &::before {
+          left: 1.9em;
+          bottom: 3.7em
+
+        }
+    }
+}
 
 
 
