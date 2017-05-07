@@ -119,11 +119,11 @@ body {
     padding-bottom: 0px; }
     .card-1::before {
       left: 1.6em;
-      bottom: 3.1em; }
+      bottom: 3.7em; }
 
   .card-2::before {
     left: 1.6em;
-    bottom: 3.1em; }
+    bottom: 3.7em; }
 
   .card-3 {
     margin-right: 22.5px; }
@@ -145,17 +145,17 @@ body {
     padding-bottom: 0px; }
     .card-1::before {
       left: 2.7em;
-      bottom: 2.7em; }
+      bottom: 3.3em; }
 
   .card-2::before {
     left: 2.7em;
-    bottom: 2.7em; }
+    bottom: 3.3em; }
 
   .card-3 {
     margin-right: 22.5px; }
     .card-3::before {
       left: 2.7em;
-      bottom: 2.7em; } }
+      bottom: 2.6em; } }
 @media only screen and (max-width: 380px) {
   .hiwimg {
     margin-top: 1em; }
@@ -168,17 +168,17 @@ body {
     padding-bottom: 0px; }
     .card-1::before {
       left: 2.3em;
-      bottom: 2.7em; }
+      bottom: 3.3em; }
 
   .card-2::before {
     left: 2.3em;
-    bottom: 3.1em; }
+    bottom: 3.6em; }
 
   .card-3 {
     margin-right: 22.5px; }
     .card-3::before {
       left: 2.3em;
-      bottom: 3.1em; } }
+      bottom: 3em; } }
 @media only screen and (max-width: 330px) {
   .hiwimg {
     margin-top: 1em; }
@@ -191,11 +191,11 @@ body {
     padding-bottom: 0px; }
     .card-1::before {
       left: 1.9em;
-      bottom: 2.7em; }
+      bottom: 3.3em; }
 
   .card-2::before {
     left: 1.9em;
-    bottom: 3.1em; }
+    bottom: 3.7em; }
 
   .card-3 {
     margin-right: 22.5px; }
