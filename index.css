@@ -7,9 +7,15 @@ body {
   padding-right: 0px; }
 
 #howitworkshead {
+  padding-top: 1em;
   padding-bottom: 2em;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 4em; }
+
+hr {
+  border: none;
+  border-top: 2px solid #ddd; }
 
 .point-card {
   box-shadow: 0px 5px 1em #666; }
@@ -155,8 +161,7 @@ body {
     display: none; }
 
   .hiwimg {
-    margin-top: 1em;
-    max-width: 117%; }
+    margin-top: 1em; }
 
   .imgrow {
     display: block; }
